@@ -29,6 +29,7 @@ public class PmsDaoTests {
     private PmsProductDao productDao;
     private static final Logger LOGGER = LoggerFactory.getLogger(PmsDaoTests.class);
     @Test
+    ////
     @Transactional
     @Rollback
     public void testInsertBatch(){
